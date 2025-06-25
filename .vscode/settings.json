@@ -1,0 +1,6 @@
+{
+  "java.configuration.updateBuildConfiguration": "interactive",
+  "java.compile.nullAnalysis.mode": "disabled",
+  "boot-java.change-detection.on": true,
+  "boot-java.common.properties-metadata": ""
+}

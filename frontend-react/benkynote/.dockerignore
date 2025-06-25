@@ -1,0 +1,26 @@
+# Ignorar node_modules
+node_modules
+
+# Ignorar archivos de log
+npm-debug.log
+
+# Ignorar archivos de Docker
+Dockerfile
+docker-compose.yml
+
+# Ignorar archivos de configuración de Git
+.git
+.gitignore
+
+# Ignorar directorios de compilación de Next.js
+.next
+
+# Ignorar archivos de entorno
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Ignorar otros archivos o directorios innecesarios
+.DS_Store

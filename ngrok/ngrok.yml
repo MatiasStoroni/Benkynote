@@ -1,0 +1,29 @@
+authtoken: 2jwO9Ei1maI79CnYbAer8U9gEUE_3Lrk96LPiD7bLRwbwLKva
+# #api_key: 24yRd5U3DestCQapJrrVHLOqiAC_7RviwRqpd3wc9dKLujQZN
+# connect_timeout: 30s
+console_ui: true
+# console_ui_color: transparent
+# dns_resolver_ips:
+#   - 1.1.1.1
+#   - 8.8.8.8
+# heartbeat_interval: 1m
+# heartbeat_tolerance: 5s
+# #inspect_db_size: 104857600 # 100mb
+log_level: info
+log_format: json
+# #log: /var/log/ngrok.log
+# metadata: '{"serial": "00012xa-33rUtz9", "comment": "For customer alan@example.com"}'
+# proxy_url: socks5://localhost:9150
+remote_management: true
+# root_cas: trusted
+# update_channel: stable
+# update_check: false
+version: 2
+web_addr: localhost:4040
+
+tunnels:
+  mytunnel:
+    addr: db:3306
+    proto: tcp
+
+  

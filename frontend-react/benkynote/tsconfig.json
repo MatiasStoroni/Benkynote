@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": false,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "paths": {
+      "@/*": [
+        "./src/*"
+      ]
+    },
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/app/api/auth/sign_up/route.js", "src/app/api/auth/sign_up/route.js", "src/app/api/route.js", "src/components/TextEditor/button.jsx", "src/components/TextEditor/form.jsx", "src/components/TextEditor/label.jsx", "src/components/TextEditor/Toggle.jsx", "src/components/TextEditor/Toolbar.jsx", "src/app/personal/apuntes/[apunteId]/page.jsx"],
+  "exclude": ["node_modules"]
+}
