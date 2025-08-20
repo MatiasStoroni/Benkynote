@@ -20,7 +20,8 @@ Benkynote is an academic assistance platform designed to improve student perform
 
 ### Installation
 1. Clone the repository:
-  git clone <repository-url>
+
+´´´git clone <repository-url>´´´
      
 2. Navigate to the project directory:
   cd benkynote
